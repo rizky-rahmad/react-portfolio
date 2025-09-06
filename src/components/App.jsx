@@ -29,7 +29,7 @@ function App() {
 
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <NavbarMenu />
             <MainContent />
             <Footer />
