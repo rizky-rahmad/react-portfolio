@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Header from "./Header";
 import useBodyClass from "./UseBodyClass";
 import NavbarMenu from "./NavbarMenu";
 import Footer from "./Footer";
@@ -16,7 +15,7 @@ function App() {
         });
 
         const script = document.createElement("script");
-        script.src = "/assets/js/main.js";
+        script.src = "./assets/js/main.js";
         script.async = true;
         document.body.appendChild(script);
 
@@ -29,7 +28,6 @@ function App() {
 
     return (
         <>
-            {/* <Header /> */}
             <NavbarMenu />
             <MainContent />
             <Footer />
