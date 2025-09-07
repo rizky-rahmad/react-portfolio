@@ -27,7 +27,7 @@ export default function Footer() {
             <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center"
                 aria-label="Scroll to top"><i className="bi bi-arrow-up-short"></i></a>
 
-            <div id="preloader"></div>
+            {/* <div id="preloader"></div> */}
 
         
         </>
